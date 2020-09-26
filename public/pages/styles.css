@@ -1,0 +1,32 @@
+
+@font-face {
+  font-family: 'Volte';
+  src: url('volte/Volte-Regular.otf') format('opentype');
+}
+
+body {
+	font-family: 'Volte', sans-serif;
+	color: #eee;
+	background: background-color:rgba(0, 0, 0, 0.1);;
+	padding: 40px;
+}
+
+a {
+	color: #F8B62D; 
+}
+
+h1 {
+	font-size: 40px;
+}
+h2 {
+	color: #F8B62D;
+	font-size: 30px;
+}
+h4 {
+	text-decoration: underline;
+	font-size: 22px;
+}
+
+p {
+	font-size: 18px;
+}

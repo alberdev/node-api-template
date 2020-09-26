@@ -1,0 +1,119 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">@import 'https://fonts.googleapis.com/css?family=Raleway:200,300,500,700,800,900';
+	@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+	body {
+	    font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        width:100%; 
+        text-align: center;
+        color: #666666;
+        font-size: 16px;
+        font-weight: 200;
+	}
+	h1 {
+	    font-family: 'Raleway', sans-serif;
+	    font-size: 40px;
+	    font-weight: 700;
+	    color: #444444;
+	    margin-bottom: 0;
+	}
+	
+	.mail {
+	    width: 100%;
+	    max-width: 500px;
+	    padding: 20px;
+	    margin: auto;
+	}
+	.logo {
+	    text-align: center;
+	}
+	.logo img.rounded {
+    	border-radius: 50%;		
+	}
+	.code {
+	    font-weight: 700;
+	    font-size: 18px;
+	}
+	.download {
+	    margin: 40px auto;
+	}
+	.button {
+	    margin: 40px auto;
+	    display: none;
+	}
+	.button a {
+	    background-color: #F4073F;
+	    padding: 15px 40px;
+	    border-radius: 25px;
+	    color: #FFFFFF;
+	    text-decoration: none;
+	    font-weight: 500;
+	    font-size: 14px;
+	}
+	.bottom {
+	    background-color: #EFEFEF;
+	    color: #888888;
+	    font-size: 12px;
+	    padding: 20px;
+	    text-align: left;
+	}
+	.bottom .logo {
+	    margin-bottom: 20px;
+	    text-align: left;
+	}
+	.bottom .lined {
+	    border-top: 1px solid #CCCCCC;
+	    border-bottom: 1px solid #CCCCCC;
+	    padding: 15px 0;
+	}
+	
+	.bottom a {
+	    text-decoration: none;
+	    color: #F4073F;
+	}
+	.bottom .terms a {
+	    font-weight: 700;
+	    margin: 20px 0;
+	    text-decoration: underline;
+	    color: #888888;
+	}
+	.bottom .terms .line {
+	    margin: 0 10px;
+	}
+	</style>
+</head>
+<body style="margin:0">
+	<div class="mail">
+		<div class="logo"><img class="rounded" height="98" src="<%= logo %>" style="width: 100px; height: 98px;" width="100" /></div>
+
+		<div class="post">
+			<h1>¡Tu nutricionista te ha dado de alta!</h1>
+			<p>Ahora ya puedes entrar en la aplicación móvil usando este mismo email y la siguiente contraseña:</p>
+			<p><span class="code"><%= pass %></span></p>
+			<p>Recuerda cambiarla cuando accedas a la aplicación en el menú de configuración.</p>		
+			<p>¡Descarga la aplicación para tu smartphone ahora y registra tus actividades a lo largo del día!</p>
+		</div>
+
+		<div class="download">
+			<a href="http://miodiet.onelink.me/<%= ioslink %>">
+				<img height="78" src="https://marketing-image-production.s3.amazonaws.com/uploads/2129aff2d33639f8df7dca70d0c503530a7be604bba0e5f3c0e7301ebb3fa8982c1ebe66324b910b3907316492d80513a091514e2c0f2cb9157a4547b383cd0b.png" style="width: 150px; height: 52px;" width="150" />
+			</a> 
+			<a href="http://miodiet.onelink.me/<%= androidlink %>" target="_top">
+				<img height="78" src="https://marketing-image-production.s3.amazonaws.com/uploads/9b08337c101e8e59d5d5c3516147096ca29e06bd4ff4ff753ad19176923c100e959fafba33c54c3626e8f64b6f574b9fbc2d9e99b96136bd3bfa40154dac2fe8.png" style="width: 150px; height: 52px;" width="150" />
+			</a>
+		</div>
+
+		<div class="bottom">
+			<div class="logo"><img height="35" src="https://marketing-image-production.s3.amazonaws.com/uploads/6ede8aadfdd5757959c5dc085fe4d78dfa8349b9307afdcf6a163e6f7848dbeaac4e5e957fda9b4d35c8794f23448d29ae51a83910b71fcacaf7c49c5ca0c309.png" style="width: 121px; height: 35px;" width="121" /></div>
+			<div class="lined">Puedes obtener más información en www.miodiet.es</div>
+			<p>Este mensaje ha sido enviado a <%= dest %>. Si ha ocurrido algún problema por favor <a href="">contacta con nosotros</a></p>		
+			<div class="terms"><a href="">Términos de Uso</a> <span class="line">|</span> <a href="">Política de Privacidad</a> <span class="line">|</span> <a href="">Contacto</a></div>		
+			<p>Mioo Inc. 2016</p>
+		</div>	
+	</div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">@import 'https://fonts.googleapis.com/css?family=Raleway:200,300,500,700,800,900';
+	@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+	body {
+	    font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        width:100%; 
+        text-align: center;
+        color: #666666;
+        font-size: 16px;
+        font-weight: 200;
+	}
+	h1 {
+	    font-family: 'Raleway', sans-serif;
+	    font-size: 40px;
+	    font-weight: 700;
+	    color: #444444;
+	    margin-bottom: 0;
+	}
+	
+	.mail {
+	    width: 100%;
+	    max-width: 500px;
+	    padding: 20px;
+	    margin: auto;
+	}
+	.logo {
+	    text-align: center;
+	}
+	.logo img.rounded {
+    	border-radius: 50%;		
+	}
+	.code {
+	    font-weight: 700;
+	    font-size: 18px;
+	}
+	.download {
+	    margin: 40px auto;
+	}
+	.button {
+	    margin: 40px auto;
+	    display: none;
+	}
+	.button a {
+	    background-color: #F4073F;
+	    padding: 15px 40px;
+	    border-radius: 25px;
+	    color: #FFFFFF;
+	    text-decoration: none;
+	    font-weight: 500;
+	    font-size: 14px;
+	}
+	.bottom {
+	    background-color: #EFEFEF;
+	    color: #888888;
+	    font-size: 12px;
+	    padding: 20px;
+	    text-align: left;
+	}
+	.bottom .logo {
+	    margin-bottom: 20px;
+	    text-align: left;
+	}
+	.bottom .lined {
+	    border-top: 1px solid #CCCCCC;
+	    border-bottom: 1px solid #CCCCCC;
+	    padding: 15px 0;
+	}
+	
+	.bottom a {
+	    text-decoration: none;
+	    color: #F4073F;
+	}
+	.bottom .terms a {
+	    font-weight: 700;
+	    margin: 20px 0;
+	    text-decoration: underline;
+	    color: #888888;
+	}
+	.bottom .terms .line {
+	    margin: 0 10px;
+	}
+	</style>
+</head>
+<body style="margin:0">
+	<div class="mail">
+		<div class="logo"><img class="rounded" height="98" src="<%= logo %>" style="width: 100px; height: 98px;" width="100" /></div>
+
+		<div class="post">
+			<h1>¡Nuevo cliente registrado en la app!</h1>
+			<p>Tienes un nuevo cliente que se ha descargado la app y se ha registrado en tu plataforma</p>
+			<p><span class="code"><%= client_name %></span></p>
+			<p>Accede al panel de control de MioDiet para ver su perfil, realizar el seguimiento de hábitos y hablar desde el chat.</p>		
+		</div>
+
+		<div class="bottom">
+			<div class="logo"><img height="35" src="https://marketing-image-production.s3.amazonaws.com/uploads/6ede8aadfdd5757959c5dc085fe4d78dfa8349b9307afdcf6a163e6f7848dbeaac4e5e957fda9b4d35c8794f23448d29ae51a83910b71fcacaf7c49c5ca0c309.png" style="width: 121px; height: 35px;" width="121" /></div>
+			<div class="lined">Puedes obtener más información en www.miodiet.es</div>
+			<p>Este mensaje ha sido enviado a <%= dest %>. Si ha ocurrido algún problema por favor <a href="">contacta con nosotros</a></p>		
+			<div class="terms"><a href="">Términos de Uso</a> <span class="line">|</span> <a href="">Política de Privacidad</a> <span class="line">|</span> <a href="">Contacto</a></div>		
+			<p>Mioo Inc. 2016</p>
+		</div>	
+	</div>
+</body>
+</html>
