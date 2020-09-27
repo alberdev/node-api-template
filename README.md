@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-   <img src="https://img.shields.io/github/downloads/alberdev/node-api-template/total?style=flat&colorB=30CEF2" alt="Downloads">
-   <img alt="GitHub" src="https://img.shields.io/github/license/alberdev/node-api-template?style=flat&colorB=30CEF2">
-   <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/alberdev/node-api-template?style=flat&colorB=30CEF2">
-   <img alt="node-current" src="https://img.shields.io/node/v/api-node?style=flat&colorB=30CEF2">
+   <img src="https://img.shields.io/github/downloads/alberdev/node-api-template/total?style=flat&colorB=5fd800" alt="Downloads">
+   <img alt="GitHub" src="https://img.shields.io/github/license/alberdev/node-api-template?style=flat&colorB=5fd800">
+   <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/alberdev/node-api-template?style=flat&colorB=5fd800">
+   <img alt="node-current" src="https://img.shields.io/node/v/api-node?style=flat&colorB=5fd800">
 </p>
 
 <br/>
