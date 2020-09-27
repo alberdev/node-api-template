@@ -27,7 +27,7 @@ The structure is very simple and easy to maintain. Use models, controllers and r
 
 ## Models
 
-You can add your new entities to this folder. Follow versions.modle.js example and go on!
+You can add your new entities to this folder. Follow versions.model.js example and go on!
 
 ## Controller
 
@@ -39,7 +39,7 @@ Routes are ways that we can handle user navigation to various URLs throughout ou
 
 ## Remember
 
-All new models and routes must be declared in your app.js 
+All new models and routes must be initialized in your app.js 
 
 ## Author
 
