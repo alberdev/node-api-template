@@ -25,17 +25,25 @@
 
 The structure is very simple and easy to maintain. Use models, controllers and routes folders to add more features. Clone this repository and use it. If you feel like contributing, please fork it and send a pull request.
 
-## Models
+### Config
+
+Update config.js with your own parameters to connect to your database and more. Some of features in app.js are commented, if you want to add some of the implemented services (services folder), you should check and uncomment what you need in app.js
+
+### Models
 
 You can add your new entities to this folder. Follow versions.model.js example and go on!
 
-## Controller
+### Controller
 
 Each controller has a worker, remember this to maintain a clean code.
 
-## Routes
+### Routes
 
 Routes are ways that we can handle user navigation to various URLs throughout our application. See routes folder, you can use *get*, *post*, *put*, *delete* and others in your routes. See a full list of potential routing methods here: [Express routing methods](https://expressjs.com/en/4x/api.html#app.METHOD)
+
+### Services
+
+There are many services you can use in your app like send emails, send push notifications, make chat with socket services, crypt service, token managers, image uploader and more...
 
 ## Remember
 
