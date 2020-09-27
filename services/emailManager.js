@@ -1,7 +1,7 @@
 
 var nodemailer 	= require("nodemailer");
 var ejs 		= require("ejs");
-var config		= require('./config');
+var config		= require('../config');
 var _this 		= this;
 var transporter = nodemailer.createTransport(config.email.transport);
 

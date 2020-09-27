@@ -5,7 +5,7 @@
 
 var mongoose 		= require('mongoose');
 var admin 			= require("firebase-admin");
-var config			= require('./config');
+var config			= require('../config');
 var serviceAccount 	= require(config.push.cert_folder);
 var Q				= require('q');  
 var _this 			= this;
