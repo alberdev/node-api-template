@@ -1,9 +1,10 @@
 {
-  "name": "api-drinkgo",
-  "description": "Drinkgo App",
+  "name": "api-node",
+  "description": "Node App",
   "version": "1.0.0",
   "private": true,
   "license": "Copyright",
+  "engines" : { "node" : ">= 8.0.0" },
   "dependencies": {
     "bcrypt": "^1.0.3",
     "body-parser": "^1.18.2",
